@@ -1,0 +1,22 @@
+body{
+
+    background-color: rgb(136, 136, 194);
+}
+h1 {
+    color: #025157;
+  }
+  .texto-debajo {
+    color: #46484c;
+  }
+  .promocional {
+    color: #8b8b8bcc;
+  }
+  form .texto-blanco {
+    color: #ffffff;
+    background-color: rgb(64, 105, 47);
+    border-radius: 10px;
+  }
+form input {
+    border-radius: 5px;
+}
+
