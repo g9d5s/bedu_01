@@ -1,22 +1,102 @@
-body{
-
-    background-color: rgb(136, 136, 194);
-}
-h1 {
-    color: #025157;
+body {
+    background-color: #fffbf7;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
   }
-  .texto-debajo {
+  .main {
+    margin: 140px 0 0;
+    padding: 10px;
+    text-align: center;
+  }
+  .main h1 {
+    color: #025157;
+    font-weight: 900;
+    font-size: 60px;
+    font-family: "Alegreya", serif;
+  }
+  .texto-gris {
     color: #46484c;
   }
-  .promocional {
-    color: #8b8b8bcc;
+  .main form button {
+    color: #fff;
+    background-color: #025157;
+    height: 47px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
   }
-  form .texto-blanco {
-    color: #ffffff;
-    background-color: rgb(64, 105, 47);
-    border-radius: 10px;
+  .main form input {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 45px;
+    margin-right: -5px;
+    border: 1px solid #c6c6c6;
+    padding: 0 5px;
   }
-form input {
+  .main .grey-text {
+    color: #a6a6a6;
+    margin-bottom: 5px;
+  }
+  .main .banner {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .main .second-image {
+    width: 70%;
+  }
+  .header {
+    margin: 40px 20px 0;
+    font-size: 0;
+    text-align: center;
+  }
+  .header li {
+    display: inline;
+  }
+  .header ul {
+    padding: 0;
+  }
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 45px;
+    vertical-align: middle;
+  }
+  .logo {
+    width: 20%;
+    text-align: left;
+  }
+  .logo > img {
+    height: 100%;
+  }
+  .navbar {
+    width: 60%;
+    color: #025157;
+    font-weight: 500;
+  }
+  .actions {
+    width: 20%;
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .actions > * {
+    margin: 0 10px;
+  }
+  .actions a {
+    color: #67b54b;
+  }
+  
+
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding:18px 20px 20px;
+    padding-bottom: 12px;
+    border: 0;
     border-radius: 5px;
 }
-
+  .menu-item {
+    margin: 0 25px;
+  }
