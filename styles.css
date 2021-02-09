@@ -100,3 +100,47 @@ body {
   .menu-item {
     margin: 0 25px;
   }
+
+  .publish h3 {
+    color: #025157;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: "Alegreya", serif;
+  }
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .publish div p {
+    color: #8b8b8bcc;
+    margin-top: 15px;
+  }
+  .publish form button {
+    color: #fff;
+    background-color: #025157;
+    height: 47px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+  }
+  .publish form input {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 45px;
+    margin-right: -5px;
+    border: 1px solid #c6c6c6;
+    padding: 0 5px;
+  }
+  .promo
+{
+ display: flex;
+  width: 70%;
+  margin: 100px auto
+  aling items:center
+;
+}
+
+.explanatagit
