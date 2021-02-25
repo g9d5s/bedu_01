@@ -1,0 +1,76 @@
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 900;
+}
+
+.blog {
+  background-color: #ffffff;
+  max-width: unset;
+  padding: 5% 10%;
+}
+.blog .process-list {
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #025157;
+  margin: 0;
+}
+.blog .process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog .process-list .process .process-icon img {
+  height: 100%;
+}
+.blog button {
+  height: auto;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+.blog .gray-text {
+  color: #4a4a4a;
+}
+.blog .gray-text h5 {
+  font-size: 24px;
+}
+.blog .gray-text p {
+  font-size: 14px;
+}
+.blog .metadata .category {
+  color: #67b54b;
+}
+.blog .metadata .read-time {
+  color: #979797;
+}
+.blog .author {
+  display: flex;
+  align-items: flex-start;
+}
+.blog .author p {
+  padding-left: 15px;
+}
+.blog .author img {
+  border-radius: 50%;
+  height: 35px;
+}
+
+/*# sourceMappingURL=output.css.map */
